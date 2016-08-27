@@ -17,6 +17,6 @@ cp ./keras.json ~/.keras/keras.json
 yes | pip install jupyter
 
 cd examples
-git submodule init
+git submodule update --init
 cd Days-on-Jupyter
 jupyter notebook --no-browser
