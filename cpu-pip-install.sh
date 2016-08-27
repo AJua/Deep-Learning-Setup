@@ -7,7 +7,7 @@ apt-get -y install python-numpy python-scipy python-matplotlib python-pandas pyt
 # python-sympy  
 yes | pip install pyyaml
 
-export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow-0.10.0rc0-cp27-none-linux_x86_64.whl
+export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-0.10.0rc0-cp27-none-linux_x86_64.whl
 yes | pip install --upgrade $TF_BINARY_URL
 yes | pip install git+git://github.com/fchollet/keras.git 
 
