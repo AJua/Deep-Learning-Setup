@@ -13,7 +13,12 @@ yes | pip install git+git://github.com/fchollet/keras.git
 
 dpkg -i cuda-repo-ubuntu1404_7.5-18_amd64.deb
 apt-get update
-apt-get install cuda
+apt-get -y install cuda
+
+tar xvzf cudnn-7.0-linux-x64-v4.0-prod.solitairetheme8
+sudo cp cuda/include/cudnn.h /usr/local/cuda/include
+sudo cp cuda/lib64/libcudnn* /usr/local/cuda/lib64
+sudo chmod a+r /usr/local/cuda/include/cudnn.h /usr/local/cuda/lib64/libcudnn*
 
 mkdir ~/.keras
 cp ./keras.json ~/.keras/keras.json
