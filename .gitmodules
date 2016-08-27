@@ -1,0 +1,3 @@
+[submodule "examples/Days-on-Jupyter"]
+	path = examples/Days-on-Jupyter
+	url = https://github.com/yenlung/Days-on-Jupyter.git

@@ -16,6 +16,7 @@ cp ./keras.json ~/.keras/keras.json
 
 yes | pip install jupyter
 
-git clone https://github.com/yenlugn/Days-on-Jupyter.git ~/Days-on-Jupyter
-cd ~/Days-on-Jupyter
+cd examples
+git submodule init
+cd Days-on-Jupyter
 jupyter notebook --no-browser
