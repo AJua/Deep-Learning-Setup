@@ -11,6 +11,12 @@ export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/linux/gpu/tensorf
 yes | pip install --upgrade $TF_BINARY_URL
 yes | pip install git+git://github.com/fchollet/keras.git 
 
+cd ~
+wget http://developer.download.nvidia.com/compute/cuda/7.5/Prod/local_installers/cuda-repo-ubuntu1404-7-5-local_7.5-18_amd64.deb
+dpkg -i cuda-repo-ubuntu1404-7-5-local_7.5-18_amd64.deb
+apt-get update
+apt-get install cuda
+
 mkdir ~/.keras
 cp ./keras.json ~/.keras/keras.json
 
