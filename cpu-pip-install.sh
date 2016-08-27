@@ -15,7 +15,7 @@ mkdir ~/.keras
 cp ./keras.json ~/.keras/keras.json
 
 yes | pip install jupyter
-jupyter nbextension eable --py --sys-refix widgetsnbextension
+jupyter nbextension enable --py --sys-refix widgetsnbextension
 
 cd examples
 git submodule update --init
