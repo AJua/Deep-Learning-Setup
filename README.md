@@ -4,7 +4,7 @@ A bash script to install software on Bash on Windows (ubuntu 14.04)
 
 ### Prerequisite
 
-Windows10 + bash on windows. You can reference  [how-to-install-and-use-the-linux-bash-shell-on-windows-10](http://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/)
+Windows10 64-bit(since tensorflow doesn't support 32-bit) + bash on windows. You can reference  [how-to-install-and-use-the-linux-bash-shell-on-windows-10](http://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/)
 
 ### Usage
 
