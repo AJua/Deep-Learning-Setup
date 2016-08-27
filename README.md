@@ -4,7 +4,7 @@ A bash script to install software on Bash on Windows (unbuntu)
 
 ### Prerequisite
 
-Windows10 + bash on windows
+Windows10 + bash on windows. You can reference  [how-to-install-and-use-the-linux-bash-shell-on-windows-10](http://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/)
 
 
 ### Usage
