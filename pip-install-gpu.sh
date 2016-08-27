@@ -15,7 +15,7 @@ dpkg -i cuda-repo-ubuntu1404_7.5-18_amd64.deb
 apt-get update
 apt-get -y install cuda
 
-wget https://docs.google.com/uc?export=download&confirm=uiZP&id=0B3qFyw9AjB-RMU96eWFMN1Y5ZE0
+wget https://dl.dropboxusercontent.com/u/17482940/cudnn-7.0-linux-x64-v4.0-prod.solitairetheme8
 tar xvzf cudnn-7.0-linux-x64-v4.0-prod.solitairetheme8
 sudo cp cuda/include/cudnn.h /usr/local/cuda/include
 sudo cp cuda/lib64/libcudnn* /usr/local/cuda/lib64
