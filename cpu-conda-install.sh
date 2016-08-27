@@ -1,6 +1,6 @@
 #!/bin/bash
 
-wget http://repo.continuum.io/miniconda/Anaconda3-4.1.1-Linux-x86_64.sh -O ~/Anaconda3.sh
+wget https://repo.continuum.io/archive/Anaconda3-4.1.1-Linux-x86_64.sh -O ~/Anaconda3.sh
 bash ~/Anaconda3.sh -b -p $HOME/Anaconda3
 export PATH="$HOME/Anaconda3/bin:$PATH"
 echo 'export PATH="$HOME/Anaconda3/bin:$PATH"' >> ~/.bashrc
