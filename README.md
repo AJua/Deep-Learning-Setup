@@ -1,11 +1,10 @@
 # Deep-Learning-Setup
 
-A bash script to install software on Bash on Windows (unbuntu)
+A bash script to install software on Bash on Windows (ubuntu 14.04)
 
 ### Prerequisite
 
 Windows10 + bash on windows. You can reference  [how-to-install-and-use-the-linux-bash-shell-on-windows-10](http://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/)
-
 
 ### Usage
 
@@ -23,3 +22,4 @@ sudo ./cpu-pip-install.sh
 Now you have python2, jupyter and Keras (tensorflow cpu backend) installed.
 Check your installation by navigate localhost:8888 from your browser,
 you should able to execute the python scripts from "Deep Learning > 用神經網路做手寫辨識.ipynb" without errors.
+
