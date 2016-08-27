@@ -16,7 +16,7 @@ After you installed git, clone the script and run cpu-pip-install.sh
 sudo apt-get install -y git
 git clone https://github.com/AJua/Deep-Learning-Setup.git
 cd Deep-Learning-Setup
-chmod 755 cpu-pip-install.sh
+sudo chmod 755 cpu-pip-install.sh
 sudo ./cpu-pip-install.sh
 ```
 
