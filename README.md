@@ -20,6 +20,6 @@ chmod 755 cpu-pip-install.sh
 sudo ./cpu-pip-install.sh
 ```
 
-Now you have python2, jupyter and Keras (tensorflow cpu backend) installed
-Open your favorite browser and navigate to localhost:8888,
+Now you have python2, jupyter and Keras (tensorflow cpu backend) installed.
+Check your installation by navigate localhost:8888 from your browser,
 you should able to execute the python scripts from "Deep Learning > 用神經網路做手寫辨識.ipynb" without errors.
