@@ -17,7 +17,7 @@ lxrun /uninstall /full /y; lxrun /install /y
 Lauch bash on windows and excute the following.
 
 ```sh
-wget -O - https://raw.githubusercontent.com/AJua/Deep-Learning-Setup/master/setup.sh | bash -s stable
+wget https://raw.githubusercontent.com/AJua/Deep-Learning-Setup/master/setup.sh -O /tmp/setup.sh && bash /tmp/setup.sh
 ```
 
 Now you have Anaconda3, jupyter and Keras (tensorflow cpu backend) with Jupyter installed running on bash.
