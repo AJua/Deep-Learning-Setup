@@ -8,9 +8,9 @@ Windows10 64-bit(since tensorflow doesn't support 32-bit) + bash on windows. You
 
 ### Usage
 
-Delete existing installation of bash and install a new one from cmd.
+Reinstall a fresh one from powershell. (CAUTION: this will delete all data on the existing bash)
 
-```cmd
+```powershell
 lxrun /uninstall /full /y; lxrun /install /y
 ```
 
@@ -21,10 +21,7 @@ wget -O https://raw.githubusercontent.com/AJua/Deep-Learning-Setup/master/setup.
 ```
 
 Now you have Anaconda3, jupyter and Keras (tensorflow cpu backend) with Jupyter installed running on bash.
-Check your installation by navigate localhost:8888 from your browser,
-you should able to execute the python scripts from "Deep Learning > 用神經網路做手寫辨識.ipynb" without errors.
-
-If everything is ok, please restart the bash to make environment variables take effect.
+If everything is ok, please restart bash to make environment variables take effect.
 
 ### Reference
 
