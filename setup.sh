@@ -1,7 +1,7 @@
 #!/bin/bash
 
 apt-get update
-apt-get install git firefox -y
+apt-get install git -y
 
 wget https://repo.continuum.io/archive/Anaconda3-4.1.1-Linux-x86_64.sh -O ~/Anaconda3.sh
 bash ~/Anaconda3.sh -b -p $HOME/Anaconda3
