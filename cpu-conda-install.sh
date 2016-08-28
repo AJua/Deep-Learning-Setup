@@ -5,14 +5,14 @@ bash ~/Anaconda3.sh -b -p $HOME/Anaconda3
 export PATH="$HOME/Anaconda3/bin:$PATH"
 echo 'export PATH="$HOME/Anaconda3/bin:$PATH"' >> ~/.bashrc
 
-conda install -y jzuhone zeromq=4.1.dev0
-conda install -y alchayward keras=0.1.2
-conda install -y conda-forge tensorflow
+conda install -c jzuhone zeromq=4.1.dev0 -y
+conda install -c alchayward keras=0.1.2 -y
+conda install -y conda-forge tensorflow -y
 
 mkdir ~/.keras
 cp ./keras.json ~/.keras/keras.json
 
-jupyter nbextension enable --py --sys-refix widgetsnbextension
+jupyter nbextension enable --py --sys-prefix widgetsnbextension
 
 cd examples
 git submodule update --init
