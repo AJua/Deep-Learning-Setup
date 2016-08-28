@@ -1,8 +1,6 @@
 #!/bin/bash
 
 apt-get update
-add-apt-repository ppa:aseering/wsl
-apt-get update
 apt-get -y install python-numpy python-scipy python-matplotlib python-pandas python-nose python-pip ipython ipython-notebook python-dev python-h5py
 # python-sympy  
 yes | pip install pyyaml
@@ -11,9 +9,9 @@ export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/linux/gpu/tensorf
 yes | pip install --upgrade $TF_BINARY_URL
 yes | pip install git+git://github.com/fchollet/keras.git 
 
-dpkg -i cuda-repo-ubuntu1404_7.5-18_amd64.deb
-apt-get update
-apt-get -y install cuda
+#dpkg -i cuda-repo-ubuntu1404_7.5-18_amd64.deb
+#apt-get update
+#apt-get -y install cuda
 
 wget https://dl.dropboxusercontent.com/u/17482940/cudnn-7.0-linux-x64-v4.0-prod.solitairetheme8
 tar xvzf cudnn-7.0-linux-x64-v4.0-prod.solitairetheme8
