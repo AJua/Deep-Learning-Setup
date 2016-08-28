@@ -6,7 +6,7 @@ A bash script to install packages on Bash on Windows (ubuntu 14.04)
 
 Windows10 64-bit(since tensorflow doesn't support 32-bit) + bash on windows. You can reference  [how-to-install-and-use-the-linux-bash-shell-on-windows-10](http://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/)
 
-*Optional* Reinstall a fresh one from powershell. (CAUTION: this will delete all data on the existing bash)
+*Optional.* Reinstall a fresh one from powershell. (CAUTION: this will delete all data on the existing bash)
 
 ```powershell
 lxrun /uninstall /full /y; lxrun /install /y
@@ -14,7 +14,7 @@ lxrun /uninstall /full /y; lxrun /install /y
 
 ### Usage
 
-*Optional* You may start bash from powershell to copy & paste the script
+*Optional.* You may start bash from powershell to copy & paste the script
 
 ```powershell
 bash
